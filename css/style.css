@@ -1,0 +1,54 @@
+body {
+    background-color: #e0e0e0;
+}
+
+#main {
+    width: 400px;
+    height: 560px;
+    margin: 100px auto;
+    background-color: #606060;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+#text-field {
+    width: 350px;
+    height: 60px;
+    margin: 20px;
+    margin-bottom: 10px;
+    background-color: #d0d0d0;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+#text {
+    color: #000000;
+    font-size: 50px;
+    margin-top: 0px;
+    text-align: end;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS';
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #0088ff;
+    margin: 5px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 40px;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+#Zero {
+    margin-left: 115px;
+}
