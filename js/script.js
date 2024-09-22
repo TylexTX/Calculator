@@ -90,11 +90,9 @@ function Equal() {
 }
 
 function UpdateText() {
-    number1 = Math.round(number1);
     if (number2 == 0) {
         text = number1 + operator;
     } else {
-        number2 = Math.round(number2);
         text = number1 + operator + number2;
     }
     if (text.length == 0) {
@@ -103,7 +101,7 @@ function UpdateText() {
     document.getElementById("text").innerText = text;
 }
 
-/* document.addEventListener("keypress", function(event) {
+document.addEventListener("keydown", function(event) {
     if (event.key === "*") {
         Multiply();
     } else if (event.key === "/") {
@@ -139,4 +137,4 @@ function UpdateText() {
     } else if (event.key === "0") {
         Number(0);
     }
-}) */
+})
